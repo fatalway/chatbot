@@ -7,7 +7,7 @@ st.title("💬 Chatbot для натальных карт")
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
 # via `st.secrets`, see https://docs.streamlit.io/develop/concepts/connections/secrets-management
-openai_api_key = st.text_input("OpenAI API Key", type="default", value="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")
+openai_api_key = st.text_input("OpenAI API Key", type="default", value="1")
 if not openai_api_key:
     st.info("Please add your OpenAI API key to continue.", icon="🗝️")
 else:
